@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch07_redirect_forward:war">
+    <output-path>$PROJECT_DIR$/ch07_redirect_forward/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch07_redirect_forward</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ch01_helloSpringMVC.war">
+      <element id="artifact" artifact-name="ch07_redirect_forward:war exploded" />
+    </root>
+  </artifact>
+</component>

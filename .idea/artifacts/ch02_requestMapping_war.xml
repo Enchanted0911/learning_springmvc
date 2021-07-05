@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch02_requestMapping:war">
+    <output-path>$PROJECT_DIR$/ch02_requestMapping/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch02_requestMapping</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ch01_helloSpringMVC.war">
+      <element id="artifact" artifact-name="ch02_requestMapping:war exploded" />
+    </root>
+  </artifact>
+</component>
